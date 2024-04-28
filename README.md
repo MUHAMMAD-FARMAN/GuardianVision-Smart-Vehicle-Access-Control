@@ -33,6 +33,29 @@ start_point = (1000, 0)
 end_point = (1000, 720)
 ```
 
+
+## Using YOLOv9
+
+If you want to use YOLOv9 instead of YOLOv8, follow these steps:
+
+1. Replace the model instantiation line in the code:
+   
+   ```python
+   # Load the YOLOv8 model
+   model = YOLO('yolov8n.pt')
+   ```
+
+   with:
+
+   ```python
+   # Load the YOLOv9 model
+   model = YOLO('yolov9c.pt')
+   ```
+
+2. Save the changes and run the Python script again.
+
+Now, your project will utilize YOLOv9 for object detection and tracking.
+
 ## Features
 
 - Real-time detection and tracking of vehicles and individuals.
