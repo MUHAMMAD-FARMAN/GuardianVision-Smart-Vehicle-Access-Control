@@ -37,7 +37,7 @@ end_point = (1000, 720)
 
 - Real-time detection and tracking of vehicles and individuals.
 - Click-based access restriction beyond specified boundaries.
-- Alarm notification upon unauthorized access.
+- Alarm sound upon unauthorized access.
 
 ## Dependencies
 
